@@ -7,7 +7,7 @@ require 'rainbow'
 
 class Convert
 
-  def initialize
+  def initialize 
     @tagger = EngTagger.new
   #   @table = Terminal::Table.new :headings => ['Type', 'Length','Word']
   #   @table.align_column(0,:right)
@@ -49,7 +49,8 @@ class Convert
       end
     end
   end
-
 end
+ a =Convert.new
+ p a.process("My name is thap")
 
 

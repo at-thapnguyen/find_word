@@ -22,7 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
+irb 
+
 require "find_noun"
+
+a = Convert.new
 
 a.process("your sentences")
 
